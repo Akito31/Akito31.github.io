@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-light shadow">
+        <div class="container">
+        <img src="drinkcoffee.svg" alt="" style="width:70px; height:70px">
+        <button class="nav-toggler " data-bs-target="#navBar" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navBar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="" class="nav-link me-5">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link me-5">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link me-5">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link me-5">Blog</a></li>
+            <li class="nav-item"><a href="" class="nav-link me-5">Contact</a></li>
+        </ul>
+        </div>
+        </div>
+     </nav>
+
+     <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../uni web/images/campus.jpg" alt="" class="img-fluid w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="../uni web/images/universityphoto.jpg" alt="" class="img-fluid w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="../uni web/images/unilife cover.jpg" alt="" class="img-fluid w-100">
+            </div>
+        </div>
+
+     </div>
+<br>
+<div class="carousel slide carousel-fade" data-bs-ride="carousel" id="myCarousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../uni web/images/campus.jpg" alt="" class="img-fluid w-100 ">
+        </div>
+        <div class="carousel-item">
+            <img src="../uni web/images/universityphoto.jpg" alt="" class="img-fluid w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="../uni web/images/universityphoto.jpg" alt="" class="img-fluid w-100">
+        </div>
+        <a href="#myCarousel" class="carousel-control-prev" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+ </div>
+
+ <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="myCarousel">
+    <div class="carousel-indicators">
+        <button  class="active" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+        <button data-bs-target="#myCarousel" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+        <button data-bs-target="#myCarousel" data-bs-slide-to="2" class="active" aria-label="Slide 3"></button>
+    </div>
+    
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../uni web/images/campus.jpg" alt="" class="img-fluid w-100 ">
+        </div>
+        <div class="carousel-item">
+            <img src="../uni web/images/universityphoto.jpg" alt="" class="img-fluid w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="../uni web/images/universityphoto.jpg" alt="" class="img-fluid w-100">
+        </div>
+
+        <a href="#myCarousel" class="carousel-control-prev" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button> -->
+            <!-- <a href="#myCarousel" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a> -->
+    
+
+    </div>
+
+ </div>
+
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
