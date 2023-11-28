@@ -1,5 +1,7 @@
 git status
-add .
-status
-commit -m ""
+git add .
+git status
+git commit -m ""
 git push
+
+git push --force
